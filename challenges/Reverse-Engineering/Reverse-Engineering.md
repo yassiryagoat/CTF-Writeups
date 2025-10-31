@@ -4,7 +4,7 @@ We were given a script with three embedded, base64-encoded payloads (Python, Bas
 ---
 
 ## Challenge Overview
-**Given:** 
+### Given: 
 
 ```bash
 cat chall.sh  
@@ -58,7 +58,7 @@ The flag format is AKASEC{part1_part2_part3}.
 
 Provided encoded data:
 
-PY_ENC, BASH_ENC, PERL_ENC
+**PY_ENC**, **BASH_ENC**, **PERL_ENC**
 
 Several hints, including encoded strings and a Bash decoding routine.
 
@@ -78,13 +78,13 @@ Three layers must be validated:
 ### 2. Extract of hints and Decode Payloads
 
 ### -**Layer 1:** 
-[Alt text](./images/image1.png)
+![Alt text](./images/image1.png)
 
 → 3asY (FLAG-Part1)
 
 ### -**Layer 2:** 
 
-[Alt text](./images/image2.png)
+![Alt text](./images/image2.png)
 #### Extraction
 → 5417171742514e1753
 
@@ -108,13 +108,13 @@ done
 
 echo -e "$decoded"
 ```
-[Alt text](./images/image4.png)
+![Alt text](./images/image4.png)
 
 This outputs: → w444arm4p  (FLAG-Part2)
 
 ### -**Layer 3:** 
 
-[Alt text](./images/image3.png)
+![Alt text](./images/image3.png)
 → Sui11i1i1i (FLAG-Part3)
 
 --- 
@@ -122,7 +122,7 @@ This outputs: → w444arm4p  (FLAG-Part2)
 ### Final Answer
 AKASEC{3asY_w444arm4p_Sui11i1i1i}
 
-[Alt text](./images/image6.png)
+![Alt text](./images/image6.png)
 
 ---
 
