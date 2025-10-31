@@ -86,13 +86,14 @@ Three layers must be validated:
 
 ### -**Layer 2:** 
 
+### Extraction
 <p align="center">
   <img src="./images/image2.png" alt="Layer 3" width="700">
 </p>
-#### Extraction
-→ 5417171742514e1753
 
-#### Decoding the Second Part
+→ 5417171742514e1753 
+
+### Decoding the Second Part
 ```bash
 cat script  
 ``` 
