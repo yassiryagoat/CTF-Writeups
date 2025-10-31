@@ -128,7 +128,9 @@ AKASEC{3asY_w444arm4p_Sui11i1i1i}
 
 ## Summary Table:
 
-Part	Value	   Method
-1	    3asY	 Direct hint
-2	  w444arm4p	 Hex/XOR decode
-3	 Sui11i1i1i	 Direct hint
+| Part | Value        | Method          |
+|------|-------------|-----------------|
+| 1    | 3asY        | Direct hint     |
+| 2    | w444arm4p   | Hex/XOR decode  |
+| 3    | Sui11i1i1i  | Direct hint     |
+
