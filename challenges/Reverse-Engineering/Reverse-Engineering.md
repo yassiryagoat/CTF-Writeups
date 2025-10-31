@@ -78,13 +78,17 @@ Three layers must be validated:
 ### 2. Extract of hints and Decode Payloads
 
 ### -**Layer 1:** 
-![Alt text](./images/image1.png)
+<p align="center">
+  <img src="./images/image1.png" alt="Layer 3" width="700">
+</p>
 
 → 3asY (FLAG-Part1)
 
 ### -**Layer 2:** 
 
-![Alt text](./images/image2.png)
+<p align="center">
+  <img src="./images/image2.png" alt="Layer 3" width="700">
+</p>
 #### Extraction
 → 5417171742514e1753
 
@@ -108,12 +112,14 @@ done
 
 echo -e "$decoded"
 ```
-![Alt text](./images/image4.png)
+<p align="center">
+  <img src="./images/image4.png" alt="Layer 3" width="700">
+</p>
 
 This outputs: → w444arm4p  (FLAG-Part2)
 
 <p align="center">
-  <img src="./images/image3.png" alt="Layer 3" width="600">
+  <img src="./images/image3.png" alt="Layer 3" width="700">
 </p>
 
 → Sui11i1i1i (FLAG-Part3)
@@ -123,7 +129,9 @@ This outputs: → w444arm4p  (FLAG-Part2)
 ### Final Answer
 AKASEC{3asY_w444arm4p_Sui11i1i1i}
 
-![Alt text](./images/image6.png)
+<p align="center">
+  <img src="./images/image6.png" alt="Layer 3" width="700">
+</p>
 
 ---
 
