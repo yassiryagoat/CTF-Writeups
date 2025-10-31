@@ -3,7 +3,6 @@
 # Intro (Forensics - CTF):
 
 This Forensics challenge was launched by [QnQsec](https://ctftime.org/event/2826/) in October 2025. The task centers on analyzing a .gif file for hidden data. i used tools such as **convert**, **file**, **Exiftool**, **xxd**, **strings**, and **binwalk** to extract and interpret concealed information, demonstrating core skills in digital investigation.
----
 
 ## Practical Command Usage
 First, we need to convert the .gif file into multiple .jpeg files so that we can handle each frame individually.
@@ -27,7 +26,6 @@ First, we need to convert the .gif file into multiple .jpeg files so that we can
 
 charset=binary
 Indicates that the file’s content is not text-based and cannot be interpreted using a character encoding like UTF-8 or ASCII. Instead, it’s pure binary data.
----
 
 ### deep dive in .gif file metadata 
 
@@ -38,22 +36,17 @@ Indicates that the file’s content is not text-based and cannot be interpreted 
 File Type & MIME:
 GIF with MIME type image/gif. This confirms it’s a GIF image, not a disguised file.
 
-
 File Size:
 2.9 MB — relatively large for a GIF, which suggests it might contain many frames or hidden data.
-
 
 GIF Version:
 89a — standard GIF format.
 
-
 Dimensions:
 476 x 266 pixels, with 0.127 Megapixels.
 
-
 Frame Count:
 42 frames — this is important. A GIF with many frames often indicates potential for hidden clues across frames (common in CTF challenges).
----
 
 ### file embedded text 
 Flags in CTF challenges often follow a format like FLAG{something} or AKASEC{part1_part2_part3}.
@@ -69,7 +62,6 @@ for f in *.jpeg; do echo "$f"; xxd "$f" | grep '{.*}'; done
 
 Red-highlighted ASCII parts show suspicious characters like {, }, and letters.
 This suggests flag fragments are embedded in the JPEG binary, confirming the GIF was hiding data across frames.
----
 
  extracts all printable ASCII text from binary files
 <p>
