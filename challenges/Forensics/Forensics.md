@@ -9,7 +9,7 @@ This Forensics challenge was launched by [QnQsec](https://ctftime.org/event/2826
 ## Practical Command Usage
 First, we need to convert the .gif file into multiple .jpeg files so that we can handle each frame individually.
 
-<align="center">
+<p><align="center">
   <img src="./images/image1.png" alt="Layer 3" width="700">
 </p>
 ---
@@ -23,7 +23,7 @@ First, we need to convert the .gif file into multiple .jpeg files so that we can
   - **application/pdf:** PDF document
   - **application/zip:** ZIP compressed archive
 
-<align="center">
+<p><align="center">
   <img src="./images/image2.png" alt="Layer 3" width="700">
 </p>
 
@@ -34,7 +34,7 @@ Indicates that the file’s content is not text-based and cannot be interpreted 
 
 ### deep dive in .gif file metadata 
 
-<align="center">
+<p><align="center">
   <img src="./images/image3.png" alt="Layer 3" width="700">
 </p>
 
@@ -66,7 +66,7 @@ This step quickly scans all frames for potential flag fragments without manually
 ```bash
 for f in *.jpeg; do echo "$f"; xxd "$f" | grep '{.*}'; done
 ```
-<align="center">
+<p><align="center">
   <img src="./images/image4.png" alt="Layer 3" width="700">
 </p>
 
@@ -75,7 +75,7 @@ This suggests flag fragments are embedded in the JPEG binary, confirming the GIF
 
 ---
  extracts all printable ASCII text from binary files
-
+<p>
 <align="center">
   <img src="./images/image5.png" alt="Layer 3" width="700">
 </p>
