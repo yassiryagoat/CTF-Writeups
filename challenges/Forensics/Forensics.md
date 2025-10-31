@@ -58,7 +58,7 @@ Frame Count:
 42 frames — this is important. A GIF with many frames often indicates potential for hidden clues across frames (common in CTF challenges).
 
 ---
-
+### file embedded text 
 Flags in CTF challenges often follow a format like FLAG{something} or AKASEC{part1_part2_part3}.
 JPEG frames might contain hidden text embedded in the binary data (not visible in the image).
 This step quickly scans all frames for potential flag fragments without manually opening each image.
@@ -82,3 +82,8 @@ This suggests flag fragments are embedded in the JPEG binary, confirming the GIF
 
 ---
 
+## Next Steps
+
+Save all fragments in order (based on frame sequence).
+Concatenate them to form the complete flag.
+Validate against the expected format (AKASEC{...}).
