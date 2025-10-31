@@ -1,5 +1,5 @@
 # Intro
-The AKASEC Club’s October 2025 CTF challenge, under the reverse engineering category, presented a multi-layered script incorporating Python, Bash, and Perl. With a reward of 50 points, the objective was to analyze the code, decode embedded clues, and reconstruct the flag in the format AKASEC{part1_part2_part3}. This write-up details the approach and steps taken to solve the challenge.
+The [AKASEC](https://www.akasec.club/) Club’s October 2025 CTF challenge, under the reverse engineering category, presented a multi-layered script incorporating Python, Bash, and Perl. With a reward of 50 points, the objective was to analyze the code, decode embedded clues, and reconstruct the flag in the format AKASEC{part1_part2_part3}. This write-up details the approach and steps taken to solve the challenge.
 
 ## Context
 We were given a script with three embedded, base64-encoded payloads (Python, Bash, Perl) and an input flag with the format AKASEC{part1_part2_part3}. The challenge consisted in reconstructing the flag through analysis and code reversing.
