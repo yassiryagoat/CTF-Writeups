@@ -112,9 +112,10 @@ echo -e "$decoded"
 
 This outputs: → w444arm4p  (FLAG-Part2)
 
-### -**Layer 3:** 
+<p align="center">
+  <img src="./images/image3.png" alt="Layer 3" width="400">
+</p>
 
-![Alt text](./images/image3.png)
 → Sui11i1i1i (FLAG-Part3)
 
 --- 
