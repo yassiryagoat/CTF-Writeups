@@ -11,6 +11,7 @@ Checking PDF metadata reveals hidden elements that normal viewing does not show.
 This indicates the need to extract hidden resources, which led us to the flag.
 ``
 
+
 ## Practical Command Usage
 First, we need to analyse the metadata of the pdf file
 
