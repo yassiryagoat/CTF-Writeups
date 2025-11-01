@@ -73,5 +73,6 @@ Here’s the decoded result:
   <img src="./images/image6-6-6.png" alt="Decoded Output" width="700">
 </p>
 
----
+tHE Final Answer is:
+QNQSEC{C4TCH_ME_1F_YOU_C4N}
 
