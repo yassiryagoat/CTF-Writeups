@@ -1,4 +1,4 @@
-# AXA/secdojo CTF: twin (exploiting CVE-2025-33073)
+# AXA/secdojo CTF: Twin
 
 ## **1. Overview**
 
