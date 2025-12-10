@@ -69,7 +69,7 @@ This attack leveraged **CVE-2025-33073**, a recently discovered authentication 
     - Targets workstation (`172.16.74.215`)
     - SMB2 support enabled for compatibility
     
-    ![image.png](6574a1d8-28b6-404c-be09-f7e38899a950.png)
+    ![image.png](./images/6574a1d8-28b6-404c-be09-f7e38899a950.png)
     
 
 ---
@@ -85,7 +85,7 @@ This attack leveraged **CVE-2025-33073**, a recently discovered authentication 
       -d secdojo.local 172.16.74.145 172.16.203.145
     ```
     
-    ![image.png](image.png)
+    ![image.png](./images/image.png)
     
     **Mechanism:**
     
@@ -106,7 +106,7 @@ This attack leveraged **CVE-2025-33073**, a recently discovered authentication 
     ```
     
 
-![image.png](image%201.png)
+![image.png](./images/image%201.png)
 
 1. **Privilege Escalation**
     
@@ -141,7 +141,7 @@ This attack leveraged **CVE-2025-33073**, a recently discovered authentication 
     ```
     
 
-![image.png](image%202.png)
+![image.png](./images/image%202.png)
 
 1. **Shell Acquisition**
     - Service created (`MXDB`) via SMB
@@ -159,7 +159,7 @@ C:\\Windows\\system32> type C:\\Users\\Administrator\\Desktop\\proof.txt
 twin_workstation_group_36542-rhkqtbbh880krobk7cgq7dqbdzvral9k
 ```
 
-![image.png](image%203.png)
+![image.png](./images/image%203.png)
 
 **Proof Flag:** `twin_workstation_group_36542-rhkqtbbh880krobk7cgq7dqbdzvral9k`
 
