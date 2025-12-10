@@ -1,4 +1,4 @@
-# AXA/secdojo CTF: Twin
+# AXA/secdojo CTF - Twin
 
 ## **1. Overview**
 
